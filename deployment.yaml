@@ -18,7 +18,7 @@ spec:
       containers:
       - name: grade-submission-api
         # UPDATE THIS LINE to match your lowercased GitHub username and repository
-        image: ghcr.io/diaadam/kubernetes-cicd-tutorial:latest
+        image: ghcr.io/diaadam/kubernetes-cicd-tutorial:3347c186323318399dc6b93d968ebf37df8071f0
         ports:
         - containerPort: 3000
         resources:
